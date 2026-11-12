@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 30px;
+}
+
+.caixa {
+    width: 120px;
+    height: 120px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.verde {
+    border: 3px solid green;
+}
+
+.azul {
+    border: 3px solid blue;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+}
